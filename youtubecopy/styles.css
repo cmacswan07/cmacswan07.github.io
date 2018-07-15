@@ -1,0 +1,236 @@
+/* General stuff. */
+
+body {
+	font-family: "Roboto", "Arial", "san-serif";
+}
+
+button {
+	border: 0;
+}
+
+/* Nav bar at the top. */
+
+.navigation {
+	width: 100%;
+	height: 41px;
+	text-align: center;
+	box-shadow: 0 4px 0 #d6d6d6;
+	margin: 0;
+}
+
+.logo-navigation {
+	float: left;
+}
+
+.master-search {	
+	position: relative;
+	bottom: 5px;
+	width: 350px;
+	height: 35px;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+.navigation button {
+	background-color: #f1f1f1;
+	border: 1px solid #767676;
+	position: relative;
+	right: 5px;
+	height: 35px;
+	top: 2px;
+}
+
+.navigation button:hover {
+	background-color: #4f4f4f;
+}
+
+.user-icons {
+	float: right;
+}
+
+/* Page structure stuff. */
+
+.left-container {
+	float: left;
+	margin-left: 15%;
+	width: 854px;
+
+}
+
+.video-container {
+	margin-top: 25px;
+}
+
+.description-container {
+	width: 100%;
+}
+
+
+/* Video description & actions. */
+
+.views {
+	color: #515151;
+	font-size: 15pt;
+	font-weight: 100;
+	display: inline;
+	margin: 0;
+}
+
+.video-stats {
+	margin: 0;
+}
+
+.video-options {
+	margin: 0;
+	float: right;
+}
+
+.video-options p {
+	margin: 0;
+}
+
+.section-line {
+	width: 854px;
+	height: 1px;
+	background-color: #d6d6d6;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+/* User info bar & subscribe button. */
+
+.user-info {
+	height: 60px;
+	width: 100%;
+}
+
+.user-info p {
+	margin: 2px;
+}
+
+.user-avatar {
+	height: 100%;
+	width: 64px;
+	margin: 2px;
+	float: left;
+}
+
+.user-name {
+	height: 100%;
+	float: left;
+	width: 500px;
+}
+
+.subscribe-button {
+	background-color: #fe0006;
+	width: 200px;
+	height: 48px;
+	margin: 2px;
+	float: right;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bolder;
+	border-radius: 5px;
+
+}
+
+.published-date {
+	font-size: 10pt;
+	color: #767676;
+}
+
+.video-description {
+	margin-left: 70px;
+	margin-right: 200px;
+	font-size: 11pt;
+}
+
+.comments-head p {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.comments-head img {
+	position: relative;
+	top: 5px;
+}
+
+.sort-by {
+	color: #767676;
+}
+
+.add-comment input {
+	width: 780px;
+	border: 1px solid #d6d6d6;
+}
+
+.commenter-avatar {
+	height: 100%;
+	width: 64px;
+	margin: 2px;
+	float: left;
+}
+
+.comment h5 {
+	display: inline;
+}
+
+.comment p {
+	display: inline;
+	font-size: 10pt;
+}
+
+
+.comment-date {
+	font-size: 9pt;
+	color: #767676;
+	margin-left: 3px;
+}
+
+#comment-actions {
+	color: #767676;
+	font-size: 10pt;
+}
+
+#comment-actions p {
+	margin-bottom: 7px;
+	margin-right: 6px;
+}
+
+/* Right container. */
+
+.right-container {
+	display: inline-block;
+	width: 337px;
+	height: 1000px;
+	margin-top: 21px;
+	margin-left: 15px;
+}
+
+/* Recommended videos. */
+
+.recommended-videos {
+	width: 100%;
+	height: 102px;
+	margin-bottom: 5px;
+}
+
+.recommended-videos h5, p {
+	margin: 2px;
+}
+
+.video-thumbnail {
+	float: left;
+	margin-right: 10px;
+}
+
+.video-thumbnail img {
+	width: 168px;
+	height: 94px;
+}
+
+.video-uploader {
+	color: #767676;
+	font-size: 9pt;
+}
