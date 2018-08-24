@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+	position: absolute;
+	background: linear-gradient(to bottom, #828282 0%, #727272 50%, #515151 51%, #848484 100%);
+	top: 20px; right: 0; bottom: 0; left: 0;
+	margin: 0 auto;
+	width: 927px;
+	height: 30px;
+	border-radius: 3px;
+	border-right:1px solid #4b4c4c;
+	box-shadow: 0 2px 2px #4b4c4c;
+}
+
+.nav-bar li {
+	float: left;
+	width: 103px;
+	height: 30px;
+	font-size: 10pt;
+	color: #fff;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	bottom: 15px;
+	line-height: 2;
+	border-right: 1px solid #4b4c4c;
+}
+
+.nav-bar ul {
+	text-align: center;
+	padding: 0;
+}
+
+#search-container {
+	float: left;
+	width: 102px;
+	height: 30px;
+	font-size: 10pt;
+	color: #fff;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	bottom: 15px;
+	line-height: 2;
+	border-right: 1px solid #4b4c4c;	
+}
+
+.fas, fa-search {
+	position: absolute;
+}
+
+.nav-bar input {
+	background: none;
+	box-shadow: inset 2px 2px #303030,
+				inset 2px -2px #fff;
+	border: none;
+	border-radius: 9px;
+	width: 90px;
+	height: 20px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	left: 5px;
+
+}
+
+.main-container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.hero-image {
+	background: url("images/hero.jpg") no-repeat bottom;
+	height: 647px;
+	text-align: center;
+	color: #fff;
+	padding-top: 150px;
+}
+
+.hero-image h1, h2, h3 {
+	font-family: Roboto, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: 200;
+}
+
+.hero-image h1 {
+	font-size: 300%;
+}
+
+.hero-image h2 {
+	font-size: 150%;
+}
+
+div[class^='hero-cell'], div[class*='hero-cell'] {
+	float: left;
+	height: 200px;
+	width: 360px;
+	display: inline-block;
+}
+
+.hero-cell-1 {
+	background: url("images/news1.jpg") no-repeat;
+}
+
+.hero-cell-2 {
+	background: url("images/news2.jpg") no-repeat;
+}
+
+.hero-cell-3 {
+	background: url("images/news3.jpg") no-repeat;
+}
+
+.hero-cell-4 {
+	background: url("images/news4.jpg") no-repeat;
+}
+
+.footer {
+	color: #6e6e6e;
+	line-height: 1.2;
+}
+
+.footer-left {
+	float: left;
+	margin-left: 200px;
+	font-size: 8pt;
+
+}
+
+.footer-right {
+	display: inline-block;
+	margin-left: 50px;
+	font-size: .8334em;
+}
+
+.footer-right li {
+	display: inline-block;
+	color: #08c;
+	font-size: .8334em;
+	line-height: 1.2;
+}
