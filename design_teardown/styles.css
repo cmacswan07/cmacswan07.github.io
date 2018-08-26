@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #e0e0e0;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+p, h1 {
+	background: #fff;
+}
+
+.navigation::after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.title-container { 
+	width: 340px;
+	left: 0; right: 0; top: 20%;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.title-1 {
+	width: 340px;
+	height: 48px;
+	background: #2d2d2d;
+}
+
+.title-2 {
+	width: 102px;
+	height: 48px;
+	background: #2d2d2d;
+	margin: 0 auto;
+}
+
+.content-columns::after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.content-1, .content-3 {
+	background: #636363;
+	border-right: 1px solid black;
+	width: 33%;
+	height: 835px;
+	float: left;
+}
+
+.content-2 {
+	background: #4f4f4f;
+	width: 34%;
+	height: 835px;
+	float: left;
+	border-right: 1px solid;
+}
+
+.nav-item {
+	height: 220px;
+	width: 20%;
+	background: #6363638f;
+	float: left;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.clear {
+	clear: both;
+}
+
+.more-content::after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.more-content-post {
+	background: #8e8e8e;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	float: left;
+	width: 25%;
+	height: 480px;
+	padding: 25px;
+}
+
+.members {
+	background: #4f4f4f;
+	width: 50%;
+	height: 480px;
+	float: left;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
