@@ -1,0 +1,133 @@
+html, body {
+	background-color: #edeff2;
+	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+
+
+.signup-form {
+	background-color: #fff;
+	border: 1px solid #c7c7c7;
+	width: 380px;
+	height: 575px;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.signup-form div {
+	text-align: center;
+}
+
+.signup-form div, label {
+	color: #4c4c4c;
+	font-size: 14px;
+}
+
+.signup-form a {
+	color: #0077c5;
+	font-weight: 300;
+	line-height: 1.2;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.signup-form h1 {
+	color: #4c4c4c;
+	font-size: 24px;
+	line-height: 1.1;
+	font-weight: 400;
+	margin: 0;
+}
+
+.signup-form button {
+	background-color: #0077C5;
+	border: 1px solid black;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #fff;
+	height: 44px;
+	width: 318px;
+	margin-top: 20px;
+}
+
+.signup-form img {
+	width: 15px;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+
+.signup-form input {
+	width: 320px;
+	height: 34px;
+	border-radius: 5px;
+	border: 1px solid #c1c5c8;
+	margin: 5px 0 5px 0;
+}
+
+.page-footer {
+	text-align: center;
+	color: #505050;
+}
+
+.master-head {
+	width: 100%;
+	text-align: right;
+}
+
+.master-head button {
+	background-color: #0077C5;
+	border-radius: 4px;
+	color: #fff;
+	border: 1px solid black;
+	width: 102px;
+	height: 35px;
+	margin-left: 10px;
+	margin-right: 5px;
+	position: relative;
+	bottom: 7px;
+}
+
+.master-head p {
+	display: inline-block;
+	margin: 10px 0 5px 0;
+	padding: 0;
+	color: #505050;
+}
+
+.master-head img {
+	width: 12px;
+	position: relative;
+	margin-right: 5px;
+	top: 2px;
+}
+
+.login-links {
+	display: inline-block;
+}
+
+.intuit-logo {
+	text-align: center;
+	margin: 25px 0 25px 0;
+}
+
+#footnote {
+	margin: 0 0 10px 0;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+#agreement { 
+	font-style: italic;
+	color: #bbb;
+	font-size: 12px;
+	font-weight: 400;	
+}
