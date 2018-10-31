@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My private library.</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="macframework.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">		
+	</head>
+	<body>
+	<div class="container md">
+		<header class="col-12">
+			<h1>My Private Library</h1>
+			<h5>by <a href="http://cmacswan07.github.io">Chris MacSwan</a> (<a href="https://github.com/cmacswan07/my_library">Github</a>)</h52>
+		</header>
+		<form class="col-12">
+			<div class="col-6">
+				Book Title<br>
+				<input type="text" id="btitle" value=""><br>
+			</div>
+			<div class="col-6">
+				Book Author<br>
+				<input type="text" id="bauthor" value=""><br>
+			</div>
+			<div class="col-6">
+				# of Pages<br>
+				<input type="text" id="page-qty" value=""><br>
+			</div>
+			<div class="col-6">
+				<p>Read book?</p>
+				<input type="radio" name="read-book" id="bread" value="Yes" checked>Yes
+				<input type="radio" name="read-book" id="bread" value="No">No
+			</div>
+			<div class="col-12">
+				Submit Book<br>
+				<button type="button" id="submit-book">Submit</button><br>
+			</div>
+		</form>
+		<div class="book-entry-head">
+			<div class="col-4">
+				<p class="book-title">Book Title</p>
+			</div>
+			<div class="col-2">
+				<p class="book-author">Book Author</p>
+			</div>
+			<div class="col-2">
+				<p class="page-quantity">Page Quantity</p>
+			</div>
+			<div class="col-2">
+				<p class="book-read">Read book?</p>
+			</div>
+			<div class="col-2">
+				<p>Delete Book</p>
+			</div>
+		</div>		
+		<div id="book-list">
+		</div>
+	</div>
+	<script src="scripts.js"></script>
+	</body>
+</html>
