@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shopping List</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+			<div id="app">
+				<header>
+					<h1>Shopping List</h1>
+				
+					<form id="item-input">
+						<input type="text" placeholder="Enter an item" v-model="itemValue"  v-on:keyup.enter="addItem(itemValue, priceValue)">
+						<input type="number" placeholder="Enter a price" v-model="priceValue"  v-on:keyup.enter="addItem(itemValue, priceValue)">
+						<button type="button" v-on:click="addItem(itemValue, priceValue)">Submit</button>
+					</form>
+				</header>
+				<!--Shopping list column headers-->
+				<div class="item-header">
+					<h2>Item</h2>
+				</div>
+				<div class="price-header">
+					<h2>Price ($)</h2>
+				</div>
+				<div class="delete-column">
+				</div>
+				<!--Actual shopping list-->
+				<div class="shopping-list">
+					<shopping-item 
+						v-for="item in items"
+						v-bind:item="item"
+					></shopping-item>
+				</div>
+				<div class="item-total">
+					<h3>Item Total</h3>
+					{{ itemTotal }}
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
