@@ -51,8 +51,70 @@ header {
 	display: none;
 }
 
+.skills-mobile {
+	display: none;
+}
+
+.skills-col-left {
+	float: left;
+	width: 50%;
+}
+
+.skills-col-right {
+	width: 50%;
+	float: left;
+}
+
 @media only screen and (max-width: 1450px) {
 	.left-col {
 		display: none;
+	}
+
+	.right-col {
+		width: 100%;
+	}
+
+	.mobile-view {
+		display: inline-block;
+		float: left;
+		width: 30%;
+		margin-right: 25px;
+	}
+
+	.skills-mobile {
+		display: block;
+		width: 100%;
+	}
+
+	.about {
+		margin-bottom: 0;
+	}	
+}
+
+@media only screen and (max-width: 1080px) {
+	.container {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.container {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 812px) {
+	.container {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 99%;
+	}
+
+	header h2 {
+		font-size: 1.1em;
 	}
 }
