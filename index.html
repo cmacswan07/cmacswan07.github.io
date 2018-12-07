@@ -39,6 +39,10 @@
 				</div>
 				<div class="projects">
 					<h3>Projects</h3>
+					<project-item
+						v-for="project in projects"
+						v-bind:project="project" 
+					></project-item>
 				</div>
 			</div>
 		</div>

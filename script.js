@@ -1,7 +1,7 @@
 Vue.component('project-item', {
 	props: ['project'],
 	template: `
-		
+		<p><a v-bind:href="project.link">{{ project.name }}</a>  -  {{ project.description }}</p>		
 	`
 })
 
