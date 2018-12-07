@@ -3,57 +3,46 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="/macframework.css">
-		<link rel="stylesheet" href="/custom.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-		<title>Chris MacSwan - Developer</title>
+		<link rel="stylesheet" href="custom.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<title>Chris MacSwan - Full Stack Developer</title>
 	</head>
 	<body>
-		<div class="container">
-			<nav class="col-12 navbar">
-				<p>Resume</p>
-			</nav>
-			<div class="navbar-break"></div>
-			<div class="col-6 bio md">
-				<img class ="my-picture" src="images/me.jpeg">
-				<h1>Chris MacSwan</h1>
-				<p>Front-end Developer</p>
-				<p><a href="https://github.com/cmacswan07"><i class="fab fa-github"></i></a>
-				<a href="mailto:cmacswan07@gmail.com"><i class="fas fa-envelope-square"></i></a></p>
+		<div id="app" class="container">
+			<div class="left-col">
+				<div class="photo">
+					<img src="images/me.jpeg">
+				</div>
+				<h3>Skills</h3>
+					<ul>
+						<li><u>/languages/</u></li>
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JavaScript</li>
+							</ul>
+						<li><u>/web_technologies/</u></li>
+							<ul>
+								<li>Vue.JS</li>
+								<li>Express.JS</li>
+								<li>BootStrap</li>
+							</ul>
+					</ul>
 			</div>
-			<div class="col-6 md">
+			<div class="right-col">
+				<header>
+					<h1>Chris MacSwan</h1>
+					<h2>Full-Stack Developer</h2>
+				</header>
 				<div class="about">
-					<h1>Hi,</h1>
-					<p>My name is Chris, and I'm a self-taught front-end developer.</p>
+					<p>My name is Chris MacSwan and I'm a full stack developer who builds things using JavaScript, Vue.JS, and Express.JS. Check out my <a href="https://github.com/cmacswan07/">Github</a> or take a look at some of the projects I've built below.</p>
 				</div>
-				<div class="my-background">
-					<div class="col-12"><p>My skills include...</p></div>
-					<div class="col-6">
-						<ul>
-							<li>HTML5</li>
-							<li>CSS3</li>
-							<li>JavaScript</li>
-						</ul>
-					</div>
-					<div class="col-6">
-						<ul>
-							<li>BootStrap</li>
-							<li>React</li>
-							<li>Angular</li>
-						</ul>
-					</div>
+				<div class="projects">
+					<h3>Projects</h3>
 				</div>
 			</div>
-			<div class="col-6 md">
-			</div>
-			<div class="col-6 projects md">
-				<h1>Here are some of the things I've worked on:</h1>
-				<p><a href="https://cmacswan07.github.io/etch-a-sketch/">Etch-A-Sketch</a> (<a href="https://github.com/cmacswan07/etch-a-sketch">Github link</a>) - Made with HTML/CSS/Vanilla JS</p>
-				<p><a href="https://cmacswan07.github.io/calculator/">Calculator</a> (<a href="https://github.com/cmacswan07/calculator">Github link</a>) - Made with HTML/CSS/Vanilla JS</p>
-				<p><a href="https://cmacswan07.github.io/framework_project/grid_example.html">My CSS Grid</a> (<a href="https://github.com/cmacswan07/css-grid">Github link</a>) - Light, responsive, CSS Grid Framework</p>												
-			</div>
-
 		</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+	<script src="script.js"></script>	
 	</body>
 </html>
