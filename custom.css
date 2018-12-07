@@ -42,3 +42,17 @@ header {
 	background: #dddddd;
 	padding: 15px;
 }
+
+.projects, img {
+	box-shadow: 10px 10px #474747;
+}
+
+.mobile-view {
+	display: none;
+}
+
+@media only screen and (max-width: 1450px) {
+	.left-col {
+		display: none;
+	}
+}
