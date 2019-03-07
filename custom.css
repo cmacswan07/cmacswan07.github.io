@@ -75,11 +75,13 @@ h1 {
 
 header {
 	padding: 15px;
+	animation: tracking-in-expand 1s ease;
 }
 
 .about {
 	margin-bottom: 25px;
 	padding: 15px;
+	animation: tracking-in-expand 1s ease;
 }
 
 .skills {
@@ -94,7 +96,15 @@ header {
 	border-top: 1px solid black;
 	margin-top: 25px;
 	width: 100%;
-	padding: 15px;
+	padding: 0em 1.25em;
+	text-align: left;
+}
+
+.projects p {
+	margin-bottom: 20px;
+}
+
+.projects h1 {
 	text-align: center;
 }
 
@@ -105,6 +115,8 @@ header {
 .skills-mobile {
 	display: none;
 }
+
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 
 @media only screen and (max-width: 1450px) {
 	.left-col {
