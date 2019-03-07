@@ -22,8 +22,7 @@ h5, h2 {
 }
 
 .container {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0em 1em;
 	background: #fff;
 	width: 50%;
 	margin-top: 0px;
@@ -96,7 +95,6 @@ header {
 	width: 100%;
 	padding: 15px;
 	text-align: center;
-	height: 500px;
 }
 
 .mobile-view {
@@ -147,7 +145,7 @@ header {
 
 @media only screen and (max-width: 812px) {
 	.container {
-		width: 99%;
+		width: 90%;
 	}
 
 	header h1 {

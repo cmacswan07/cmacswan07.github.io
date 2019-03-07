@@ -10,6 +10,7 @@ const app = new Vue({
 	data: {
 		projects: [
 			{ name: 'To-Do List', description: 'A full stack To-Do list application built with Express, Vue, and MySQL.', link: 'https://todo-app-cmacswan.herokuapp.com/' },
+			{ name: 'Linked-List', description: 'Demo project built with Express and Vue. Has a single linked-list on Node back-end and an Express API that the Vue front-end interacts with', link: 'https://todo-app-cmacswan.herokuapp.com/' },
 			{ name: 'Shopping List', description: 'A shopping list tool made with Vue JS.', link: './shopping_list/' },
 			{ name: 'My Library', description: 'A tool to help keep track of a library of books. Built with vanilla JS.', link: './my_library/' },
 			{ name: 'Tic Tac Toe', description: 'Tic-tac-toe game. Vanilla JS.', link: './tic_tac_toe/' },
