@@ -209,6 +209,11 @@ a:hover, a:focus, a:active {
     display: block;
   }
 
+  h1 {
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
+
   .desktop-view {
     display: none;
   }
