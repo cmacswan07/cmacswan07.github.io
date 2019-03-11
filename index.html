@@ -1,68 +1,235 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="custom.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-		<title>Chris MacSwan - Full Stack Developer</title>
-	</head>
-	<body>
-		<div id="app" class="container">
-			<div class="navbar">
-				<ul>
-					<li><a href="https://www.dropbox.com/s/g2xq3sba4zh24mb/resume_03042019%20%281%29.pdf?dl=0">RESUME</a></li>
-					<li><a href="https://github.com/cmacswan07">GITHUB</a></li>
-					<li><a href="mailto://cmacswan07@gmail.com">EMAIL</a></li>
-				</ul>
-			</div>
-			<div class="left-col">
-				<div class="photo">
-					<img src="images/me.jpeg">
-				</div>
-			</div>
-			<div class="right-col">
-				<header>
-					<h1>Chris MacSwan</h1>
-					<h2>Full-Stack Developer</h2>
-				</header>
-				<div class="about">
-					<p>My name is Chris MacSwan and I'm a self-taught web developer who builds full stack applications using technologies such as Node, Express, Vue and others. Check out my <a href="https://github.com/cmacswan07/">Github</a> or take a look at some of the projects I've built below.</p>
-				</div>
-			</div>
-			<div class="skills">
-				<h1>Skills</h1>
-				<h5>Languages</h5>
-				<ul>
-					<li>JavaScript</li>
-					<li>HTML5</li>
-					<li>CSS</li>
-				</ul>
-				<h5>Frameworks</h5>
-				<ul>
-					<li>Node.JS</li>
-					<li>Express.JS</li>
-					<li>Vue.JS</li>
-					<li>Bootstrap</li>
-				</ul>
-				<h5>Other Skills</h5>
-				<ul>
-					<li>Git</li>
-					<li>Bash</li>
-					<li>Adobe Photoshop</li>
-					<li>Adobe Illustrator</li>
-					<li>3D Modeling & Texturing</li>					
-				</ul>						
-			</div>
-			<div class="projects">
-				<h1>Projects</h1>
-					<project-item
-						v-for="project in projects"
-						v-bind:project="project" 
-					></project-item>
-			</div>			
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Chris MacSwan - Web Developer</title>
+<!-- Bootstrap core CSS --> <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <link href="css/resume.css" rel="stylesheet">  
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Chris MacSwan</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpeg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+	<li class="nav-item">
+	  <a class="nav-link js-scroll-trigger" href="https://www.dropbox.com/s/g2xq3sba4zh24mb/resume_03042019%20%281%29.pdf?dl=0">Resume</a>
+	</li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Chris
+          <span class="text-primary">MacSwan</span>
+        </h1>
+        <div class="subheading mb-5">Full-Stack Developer · (951) 543-1209 ·
+          <a href="mailto:cmacswan07@gmail.com">cmacswan07@gmail.com</a>
+        </div>
+        <p class="lead mb-5">My name is Chris MacSwan and I'm a self-taught web developer who builds full stack applications using technologies such as Node, Express, Vue, and others. Check out my Github or take a look at some of the projects I've built below.</p>
+        <div class="social-icons">
+         <a href="https://github.com/cmacswan07">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+         <!-- <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+	 </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+	  </li>-->
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-vuejs"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
+
+	<ul class="fa-ul mb-0">
+		<li>
+			<i class="fa-li fa fa-check"></i>
+			JavaScript
+		</li>
+		<li>
+			<i class="fa-li fa fa-check"></i>
+			HTML
+		</li>
+		<li>
+			<i class="fa-li fa fa-check"></i>
+			CSS
+		</li>
+		<li>
+			<i class="fa-li fa fa-check"></i>
+			Vue.JS
+		</li>
+		<li>
+			<i class="fa-li fa fa-check"></i>
+			Node.JS
+		</li>
+		<li>
+			<i class="fa-li fa fa-check"></i>
+			Express.JS
+		</li>
+	</ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5 projects">Projects</h2>
+	      <!-- Project One -->
+	      <div class="row">
+		<div class="col-md-12">
+		<h3><a href="https://todo-app-cmacswan.herokuapp.com/">To-Do List</a></h3>
+		  <p>A full stack To-Do list app built with Express, Vue, and MySql. Also uses Passport.JS for User Authentication. Running live on Heroku. </p>
 		</div>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-	<script src="script.js"></script>	
-	</body>
+	      </div>
+	      <!-- /.row -->
+
+	      <hr>
+
+	      <!-- Project Two -->
+	      <div class="row">
+		<div class="col-md-12">
+		<h3><a href="https://ll-vue-express.herokuapp.com/">Linked-List Demo</a></h3>
+		  <p>Demo project built with Express and Vue. Has a single linked-list on Node back-end and an Express API that the Vue front-end interacts with. Deployed to Heroku.</p>
+		</div>
+	      </div>
+	      <!-- /.row -->
+
+	      <hr>
+
+	      <!-- Project Three -->
+	      <div class="row">
+		<div class="col-md-12">
+		<h3><a href="https://cmacswan07.github.io/shopping_list/">Shopping-List</a></h3>
+		  <p>A shopping list tool made with Vue.</p>
+		</div>
+	      </div>
+	      <!-- /.row -->
+
+	      <hr>
+
+	      <!-- Project Four -->
+	      <div class="row">
+		<div class="col-md-12">
+		<h3><a href="https://cmacswan07.github.io/my_library/">My Library</a></h3>
+		  <p>A tool to help keep track of library items. Made with Vanilla JavaScript.</p>
+		</div>
+	      </div>
+	      <!-- /.row -->
+
+	      <hr>
+
+	      <!-- Project Four -->
+	      <div class="row">
+		<div class="col-md-12">
+		<h3><a href="https://cmacswan07.github.io/etch-a-sketch/">Etch-A-Sketch</a></h3>
+		  <p>A browser Etch-A-Sketch. HTML/CSS/JavaScript.</p>
+		</div>
+	      </div> 
+	      <!-- /.row -->
+
+	      <hr>
+
+	      <!-- Project Four -->
+	      <div class="row">
+		<div class="col-md-12">
+			<h3><a href="https://cmacswan07.github.io/tic_tac_toe/">Tic Tac Toe</a></h3>
+		  <p>Tic-Tac-Toe game. Made with Vanilla JavaScript.</p>
+		</div>
+	      </div> 
+	      <!-- /.row -->
+
+	      <hr>
+
+	      <!-- Project Four -->
+	      <div class="row">
+		<div class="col-md-12">
+			<h3><a href="https://cmacswan07.github.io/calculator/">Calculator</a></h3>
+		  <p>Simple calculator. HTML/CSS/JavaScript.</p>
+		</div>
+	      </div> 
+	      <!-- /.row -->
+
+	      <hr>
+
+	      <!-- Project Four -->
+	      <div class="row">
+		<div class="col-md-12">
+			<h3><a href="https://cmacswan07.github.io/framework_project/">CSS Grid Framework</a></h3>
+		  <p>A custom made CSS grid framework.</p>
+		</div>
+	      </div>      
+      </div>
+    </section>
+
+    <hr class="m-0">
+  </div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script src="js/resume.min.js"></script>
+
+</body>
+
 </html>
