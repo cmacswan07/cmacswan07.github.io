@@ -27,6 +27,14 @@ h6 {
   color: #f90036; 
 }
 
+.mobile-display {
+  display: none;
+}
+
+.desktop-view {
+  display: block;
+}
+
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
@@ -98,6 +106,7 @@ row img {
 }
 
 @media (min-width: 992px) {
+
   #sideNav {
     text-align: center;
     position: fixed;
@@ -193,4 +202,14 @@ a {
 
 a:hover, a:focus, a:active {
   color: #000;
+}
+
+@media (max-width: 992px) {
+  .mobile-display {
+    display: block;
+  }
+
+  .desktop-view {
+    display: none;
+  }
 }
