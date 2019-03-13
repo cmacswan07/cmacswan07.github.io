@@ -1,6 +1,6 @@
 body {
 	font-family : arial;
-	background-color : #397bba;
+	background-color : #06d6a0;
 }
 
 .myname {
@@ -50,9 +50,8 @@ body {
 	margin-top : 25px;
 	width : 300px;
 	height : 300px;
-	border : .1px solid #3a3a3a; 
-	background-color : #bdd698;
-	box-shadow : inset 0px 5px 40px 10px #444444;
+	background-color : #ffd166;
+	box-shadow : inset 10px 10px #444444;
 	z-index : 10;
 
 }
@@ -77,10 +76,8 @@ button {
 	height : 350px;
 	background-color : #606060;
 	z-index : 0;
-	border : .5px solid black;
 	border-top-left-radius: 25px;
 	border-bottom-right-radius : 25px;
-	box-shadow : 0px 2px 5px 0px #444444;
 }
 
 .light {
@@ -93,20 +90,20 @@ button {
     border-radius: 10px;
     width: 5px;
     height: 5px;
-    box-shadow: 0px 0px 3px 3px #ff3838;
 }
 
 .gbunit {
 	margin : auto;
 	width : 500px;
 	height : 700px;
-	background-color : #d6d6d6;
+/*	background-color : #fcfcfc;*/
+	background : linear-gradient(135deg, #f2f6f8 0%,hsla(204, 15%, 88%, 1) 50%,hsla(202, 5%, 76%, 1) 50.1%,#e0eff9 100%);
 	z-index : -2;
 	border-top-left-radius : 20px;
 	border-top-right-radius : 20px;
 	border-bottom-right-radius : 100px;
 	border-bottom-left-radius:20px;
-	box-shadow : 10px 10px 200px 0px #000;
+	box-shadow : 10px 10px #767676;
 	/* box-shadow: inset 5px 25px 65px 2px #ffffff; */
 	border-width : 5px;
 	border-style : outset;
@@ -118,10 +115,9 @@ button {
     float: left;
     margin-left: 100px;
     margin-top: 450px;
-    background-color: #000;
+    background-color: #2d2d2d;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow : 1px 1px 1px 1px #000;
 
 }
 
@@ -130,10 +126,9 @@ button {
     width: 100px;
     margin-left: 70px;
     margin-top: 480px;
-    background-color: #000;
+    background-color: #2d2d2d;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow : 1px 1px 1px 1px #000;
     z-index : 2px;
 }
 
@@ -142,22 +137,20 @@ button {
     width: 30px;
     margin-left: 7px;
     margin-top: 32px;
-    background-color: #111111;
+    background: linear-gradient(135deg, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
     border-radius: 20px;
     border-width: 2px;
-    box-shadow: inset -5px -4px 10px 0px #444444;
     z-index: 3;
 }
 
 .gbbuttona {
-	height: 65px;
+    height: 65px;
     margin-top: -40px;
     margin-right: 125px;
     float: right;
     border-radius: 50px;
     width: 65px;
-    background-color: #7c0f84;
-    box-shadow: inset 5px 25px 65px 2px #cea5d1;
+    background: linear-gradient(135deg, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
     border-style: outset;
     border-width: 2px;
     border-color: #c654ce;
@@ -179,8 +172,7 @@ button {
     margin-left: 385px;
     border-radius: 50px;
     width: 65px;
-    background-color: #7c0f84;
-    box-shadow: inset 5px 25px 65px 2px #cea5d1;
+    background: linear-gradient(135deg, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
     border-style: outset;
     border-width: 2px;
     border-color: #c654ce;
