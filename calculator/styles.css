@@ -1,5 +1,5 @@
 body {
-    font-family : "arial";
+	font-family : "arial";
     background: linear-gradient(135deg, #b04, #f80) fixed;
 }
 
@@ -12,23 +12,23 @@ body {
 }
 
 .screen p {
-    font-size : 30pt;
-    color : #0a1301;
-    float : right;
-    margin-bottom : 0px;
-    margin-top : 60px;
+	font-size : 30pt;
+	color : #0a1301;
+	float : right;
+	margin-bottom : 0px;
+	margin-top : 60px;
 }
 
 .container {
-    background : #59797c;
-    border : 5px solid black;
-    margin : auto;
-    margin-top : 20px;
-    width : 300px;
-    height : 400px;
-    padding : 5px;
-    border-radius : 10px;
-    box-shadow: 10px 10px #191919;
+	background : #59797c;
+	border : 5px solid black;
+	margin : auto;
+	margin-top : 250px;
+	width : 300px;
+	height : 400px;
+	padding : 5px;
+	border-radius : 10px;
+	box-shadow: 10px 10px #191919;
 }
 
 .buttonRow {
@@ -48,12 +48,12 @@ body {
 }
 
 button:hover {
-    background: #dbdbdb;
+	background: #dbdbdb;
 }
 
 button:active {
-    background: #383838;
-    color: #fff;
+	background: #383838;
+	color: #fff;
 }
 
 #zeroButton {
@@ -66,7 +66,7 @@ button:active {
 }
 
 button {
-    font-size : 18pt;
+	font-size : 18pt;
 }
 
 .operatorButton {
@@ -88,14 +88,14 @@ button {
 }
 
 .creditText {
-    color : #fff;
-    font-size : 12pt;
-    margin : auto;
-    width : 50%;
-    width : 100%;
-    text-align : center;
+	color : #fff;
+	font-size : 12pt;
+	margin : auto;
+	width : 50%;
+	width : 100%;
+	text-align : center;
 }
 
 a {
-    color : #d3a376;
+	color : #d3a376;
 }

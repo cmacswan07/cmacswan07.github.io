@@ -235,3 +235,9 @@ button {
     border: 0;
     color: #3a3a3a;
 }
+
+@media (max-width: 500px) {
+    .screen-border {
+        left: 60px;
+    }
+}
