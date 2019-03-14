@@ -3,6 +3,9 @@ const row = document.createElement('div');
 const cell = document.createElement('div');
 let gridSize = 20;
 
+let documentBody = document.getElementById('document-body');
+documentBody.addEventListener('touchstart', function() {}, true );
+
 createGrid();
 
 let resizeButton = document.querySelector('#resize');

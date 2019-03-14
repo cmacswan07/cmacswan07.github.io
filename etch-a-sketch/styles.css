@@ -236,6 +236,12 @@ button {
     color: #3a3a3a;
 }
 
+element:hover, element:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
 @media (max-width: 500px) {
     .screen-border {
         left: 60px;
