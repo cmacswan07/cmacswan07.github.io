@@ -161,6 +161,10 @@ row img {
   padding: 0;
 }
 
+#sticky-footer {
+  background: #000;
+}
+
 .about {
   padding: 3rem 25rem 3rem 3rem;
   /* max-width: 75rem; */
