@@ -154,7 +154,8 @@ row img {
       rgba(0, 0, 0, 0.75)
     ),
     url(../img/b2.jpg) no-repeat;
-  background-size: 125%;
+  background-size: 150%;
+  background-position: bottom;
   max-width: unset;
   padding: 0;
 }
@@ -293,7 +294,7 @@ a:hover, a:focus, a:active {
   }
 
   .about {
-    margin-top: 50%;
+    margin-top: 20vh;
   }
 
   #home a {
