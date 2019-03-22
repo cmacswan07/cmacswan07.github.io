@@ -275,6 +275,12 @@ a:hover, a:focus, a:active {
   color: #000;
 }
 
+@media (max-width: 1368px) {
+  #about {
+    background-size: 250%;
+  }
+}
+
 @media (max-width: 992px) {
   .mobile-display {
     display: block;
@@ -285,7 +291,7 @@ a:hover, a:focus, a:active {
   }
 
   .about {
-    padding: 2rem;
+    padding: .5rem;
   }
 
   #about {
