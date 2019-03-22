@@ -147,6 +147,24 @@ row img {
   color: #f90036;
 }
 
+#about {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(../img/b2.jpg) no-repeat;
+  background-size: 125%;
+  max-width: unset;
+  padding: 0;
+}
+
+.about {
+  padding: 3rem 25rem 3rem 3rem;
+  /* max-width: 75rem; */
+  background: #fff;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
 /*  font-weight: 800;*/
   letter-spacing: 0.05rem;
@@ -235,8 +253,8 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 3rem /* !important */;
+    padding-bottom: 3rem /* !important */;
   }
 }
 
@@ -265,6 +283,15 @@ a:hover, a:focus, a:active {
     font-size: 1.25rem;
   }
 
+  .about {
+    padding: 2rem;
+  }
+
+  #about {
+    background-position: top;
+    background-size: 200%;
+  }
+
   #home a {
     font-size: 1.25rem;
   }
@@ -276,6 +303,11 @@ a:hover, a:focus, a:active {
   h1 {
     font-size: 3rem;
     line-height: 4.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
   }
 
   .desktop-view {
