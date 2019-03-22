@@ -252,6 +252,10 @@ a:hover, a:focus, a:active {
     font-size: 1.25rem;
   }
 
+  #home a {
+    font-size: 1.25rem;
+  }
+
   #home {
     height: 800px;
   }
