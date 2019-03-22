@@ -105,6 +105,19 @@ row img {
   font-size: 1.5rem;
 }
 
+.skills {
+  text-align: center;
+}
+
+.dev-icons p {
+  font-size: 1.2rem;
+}
+
+.dev-icons button {
+  border: 0;
+  background: rgba(0,0,0,0);
+}
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
