@@ -156,6 +156,7 @@ row img {
     url(../img/b2.jpg) no-repeat;
   background-size: 150%;
   background-position: bottom;
+  background-color: #000;
   max-width: unset;
   padding: 0;
 }
