@@ -51,15 +51,36 @@ h3 {
 #home {
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../img/bg.png) no-repeat;
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1.0)
+    )/*,
+    url(../img/bg.png) no-repeat*/;
   background-size: 165%;
   background-position: top;
   max-width: unset;
   color: #fff;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#home a {
+  font-size: 2rem;
+}
+
+#home video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 #home a:hover {
@@ -227,8 +248,16 @@ a:hover, a:focus, a:active {
     display: block;
   }
 
+  .subheading {
+    font-size: 1.25rem;
+  }
+
+  #home {
+    height: 800px;
+  }
+
   h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     line-height: 4.5rem;
   }
 
