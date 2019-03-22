@@ -289,7 +289,11 @@ a:hover, a:focus, a:active {
 
   #about {
     background-position: top;
-    background-size: 200%;
+    background-size: 250%;
+  }
+
+  .about {
+    margin-top: 50%;
   }
 
   #home a {
