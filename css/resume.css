@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 100;
+  font-weight: 600;
   color: #f90036; 
 }
 
@@ -272,6 +272,27 @@ section.resume-section .resume-item .resume-date {
   color: #000 !important;
 }
 
+.card-image-hover:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	z-index: 5;
+	height: 0%;
+	width: 100%;
+	transition: height 0.5s ease-out;
+	background: linear-gradient(to top, rgba(195, 20, 50, 0.75) 0%, rgba(36, 11, 54, 0.25) 100%);
+}
+
+.card-image-hover:hover:before {
+	height: 100%;
+}
+
+/*img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}*/
+
 a {
   color: #f90036;
 }
@@ -323,7 +344,6 @@ a:hover, a:focus, a:active {
 
   h2 {
     font-size: 2.5rem;
-    text-align: center;
   }
 
   .desktop-view {
