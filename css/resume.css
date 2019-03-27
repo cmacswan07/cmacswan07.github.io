@@ -6,7 +6,7 @@
 
 body {
   padding-top: 54px;
-  color: #868e96;
+  color: #000;
   font-weight: 600;
 }
 
@@ -101,6 +101,10 @@ row img {
   height: 300px;
 }
 
+#about a {
+	font-size: 2rem;
+}
+
 .subheading {
   font-size: 1.5rem;
 }
@@ -168,7 +172,7 @@ row img {
 .about {
   padding: 3rem 25rem 3rem 3rem;
   /* max-width: 75rem; */
-  background: #fff;
+  background: rgba(255, 255, 255, 0.75);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -265,11 +269,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #000 !important;
+  background: #000 !important;
 }
 
 .text-primary {
   color: #000 !important;
+}
+
+.card-image-hover {
+	position: relative;
 }
 
 .card-image-hover:before {
@@ -280,18 +288,18 @@ section.resume-section .resume-item .resume-date {
 	z-index: 5;
 	height: 0%;
 	width: 100%;
-	transition: height 0.5s ease-out;
-	background: linear-gradient(to top, rgba(195, 20, 50, 0.75) 0%, rgba(36, 11, 54, 0.25) 100%);
+	transition: height 0.25s ease-out;
+	background: linear-gradient(to top, rgba(195, 20, 50, 0.75) 0%, rgba(36, 11, 54, 0.15) 100%);
 }
 
 .card-image-hover:hover:before {
 	height: 100%;
 }
 
-/*img {
+img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-}*/
+}
 
 a {
   color: #f90036;
