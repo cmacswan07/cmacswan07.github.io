@@ -4040,8 +4040,18 @@ textarea {
   min-height: 100vh; }
 
 @media (max-width: 767px) {
-  .fullheight-sm-only {
-    min-height: 100vh; } }
+    .fullheight-sm-only {
+      min-height: 100vh; 
+    }
+
+    #about-vh, #projects-vh {
+      min-height: 100vh !important;
+    }
+
+    .navbar-sidebar {
+      display: none !important;
+    }
+  }
 
 .fullwidth {
   width: 100%; }
