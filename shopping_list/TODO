@@ -1,5 +1,0 @@
-1.) Get the delete button to invoke the removeItem function on click passing the item index of the item that's in the component with the delete button. -- DONE!
-
-2.) Make the input fields clear after submitting a new shopping item. -- DONE!
-
-3.) Create a div somewhere that adds up the cost of each item in the shopping list and shows you a total. -- DONE!
